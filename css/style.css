@@ -1,0 +1,78 @@
+/*================================================================================
+	Item Name: Crypto ICO - Cryptocurrency Website Landing Page HTML + Dashboard Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+/* nav bar to whte text remove all inline styles... */
+
+.head-area .head-content{
+	color:#FFF;
+	padding-top:5.125rem;
+	background:-webkit-gradient(linear,left top,right top,from(red),to(blue)); 
+	background:-webkit-linear-gradient(left,red,blue);
+	background:-moz-linear-gradient(left,red,blue);
+	background:-o-linear-gradient(left,red,blue);
+	background:linear-gradient(to right,red,blue);
+}
+.head-area .head-content h1, .head-area .head-content h3{
+	font-size: 1.3rem;
+}
+.head-area .head-content .progress-bar-custom{
+	background:-webkit-gradient(linear,left top,right top,from(red),to(blue));
+	background:-webkit-linear-gradient(left,red,blue);
+	background:-moz-linear-gradient(left,red,blue);
+	background:-o-linear-gradient(left,red,blue);
+	background:linear-gradient(to right,red,blue)
+}
+.btn-gradient-orange{
+	background-image:-webkit-linear-gradient(50deg,green 20%,purple 51%,green 90%);
+	background-image:-moz-linear-gradient(50deg,green 20%,purple 51%,green 90%);
+	background-image:-o-linear-gradient(50deg,green 20%,purple 51%,green 90%);
+	background-image:linear-gradient(40deg,green 20%,purple 51%,green 90%);
+}
+.btn-gradient-orange:not(:disabled):not(.disabled):active{
+	background-image:-webkit-linear-gradient(50deg,green 0,purple 51%,green 90%);
+	background-image:-moz-linear-gradient(50deg,green 0,purple 51%,green 90%);
+	background-image:-o-linear-gradient(50deg,green 0,purple 51%,green 90%);
+	background-image:linear-gradient(40deg,green 0,purple 51%,green 90%)
+}
+.btn-gradient-orange.btn-glow{
+	-webkit-box-shadow: 0 0 12px 0 #661177;
+}
+.roadmap .swiper-slide{
+	border-top: 4px solid  brown;
+}
+
+.page-header .main-menu .container .navbar-brand .brand-text{
+	color: #fff;
+}
+.page-header .main-menu .container .navbar-brand img{
+	width: 5rem;
+	height: 5rem;
+}
+.page-header .main-menu .container .navbar-toggler{
+	border: 2px solid #fff;
+	color: #fff;
+}
+#navigation .nav-link{
+	color: #fff;
+}
+#navbarCollapse #navigation #slide-line{
+	background-color: red;
+}
+@media screen and (max-width: 600px){
+	.page-header .main-menu .container .navbar-brand .brand-text{
+		font-size: large;
+	}
+	.page-header .main-menu .container .navbar-brand img{
+		width: 3.5rem;
+		height: 3.5rem;
+	}
+}
